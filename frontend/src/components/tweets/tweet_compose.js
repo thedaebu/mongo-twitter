@@ -47,7 +47,7 @@ class TweetCompose extends React.Component {
                 </div>
             </form>
             <br />
-            
+            <TweetBox text={this.state.newTweet} />
         </div>
     )
   }
